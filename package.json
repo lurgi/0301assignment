@@ -13,6 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.2",
+    "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "recoil": "^0.7.6",
     "styled-components": "^5.3.6",
@@ -49,5 +50,5 @@
     "@types/react": "^18.0.28",
     "@types/styled-components": "^5.1.26"
   },
-  "homepage": "https://lurgi.github.io/react_master_20230228"
+  "homepage": "https://lurgi.github.io/0301assignment"
 }

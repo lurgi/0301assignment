@@ -1,5 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import ToDoList from './ToDoList';
+import { Route, Routes } from "react-router-dom";
+import { createGlobalStyle } from "styled-components";
+import ToDoList from "./ToDoList";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
@@ -68,8 +69,10 @@ a {
 function App() {
   return (
     <>
-      <GlobalStyle/>
-      <ToDoList/>
+      <GlobalStyle />
+      <Routes>
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<ToDoList />} />
+      </Routes>
     </>
   );
 }
