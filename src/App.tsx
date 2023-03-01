@@ -1,4 +1,3 @@
-import { HashRouter as Route, Router, Routes } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 import ToDoList from "./ToDoList";
 
