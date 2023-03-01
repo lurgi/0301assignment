@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Route, Router, Routes } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 import ToDoList from "./ToDoList";
 
@@ -70,9 +70,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<ToDoList />} />
-      </Routes>
+      <ToDoList />
     </>
   );
 }
